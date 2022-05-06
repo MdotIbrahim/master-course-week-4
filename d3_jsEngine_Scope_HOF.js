@@ -72,9 +72,7 @@ const doMaths = (num1) => {
         return fn(num1, num2);
 }
 }
-
 console.log(doMaths(5)(3, multiply));
-
 
 // function declaration after call stillworking because of hoisting...doesnt work for variables but is understood (javascript knows the variable exists after but wont let you use it)
 console.log(isEven(24)); // => true
